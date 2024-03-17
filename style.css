@@ -156,3 +156,60 @@ span{
     width: 100%;
     object-fit: cover;
 }
+.newsletter{
+    background: rgba(41, 165, 163, .1);
+}
+  
+  .newsletter .content:hover{
+    box-shadow: 0 .100rem 6rem rgba(0,0,0,0.1);
+    border-radius: 2rem;
+}
+  
+  .newsletter .content{
+      text-align: center;
+      max-width: 60rem;
+      margin: 1rem auto;
+      padding: 70px;
+     
+  }
+  
+  .newsletter .content h3{
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: var(--blue);
+  }
+  
+  .newsletter .content p{
+      font-size: 1.7rem;
+      padding: 1rem 0;
+      color: #666;
+      line-height: 2;
+  }
+  
+  .newsletter .content p a {
+      color: var(--blue);
+  }
+  
+  .newsletter .content p a:hover{
+      text-decoration: underline;
+  }
+  
+  .newsletter .content form{
+      display: flex;
+      border: .1rem solid var(--blue);
+      border-radius: .5rem;
+      padding: .5rem;
+      margin: 1rem 0;
+  }
+  
+  .newsletter .content form .email{
+      width: 100%;
+      padding: 1rem 1.4rem;
+      font-size: 1.7rem;
+      text-transform: none;
+  }
+  
+  .newsletter .content form .btn{
+      margin-top: 0;
+  }
+  
