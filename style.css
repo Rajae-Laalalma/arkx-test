@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 :root{
     --blue:#0A1D56;
     --red:red;
@@ -37,20 +39,83 @@
   section{
       padding: 2rem 7%;
   }
-.header{
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    background: #fff;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 9% 2px;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
-}
-
-.header #logo{
-width: 120px;
- height: 70px;
+  
+  .heading{
+      text-align: center;
+      font-size: 4rem;
+      margin: 2rem 0;
+      color: var(--blue);
+  }
+  
+  .btn{
+      display: inline-block;
+      margin-top: 1rem;
+      background: var(--blue);
+      color: #fff;
+      padding: .8rem 3rem;
+      border: .2rem solid var(--blue);
+      cursor: pointer;
+      font-size: 1.7rem;
+      border-radius: .5rem;
+  }
+  
+  .btn:hover{
+      color: var(--blue);
+      background: rgba(41, 165, 163, .2);
+  }
+  
  
+  
+  .header{
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: #fff;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 9% 2px;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+  }
+  
+  .header #logo{
+  width: 120px;
+   height: 70px;
+   
 } 
+  .header .navbar a{
+      color: var(--blue);
+      font-size: 2rem;
+      margin: 0 .8rem;
+  }
+  
+  .header .navbar a:hover{
+      color: var(--red);
+  }
+  
+  .header .navbar #close-navbar{
+      position: absolute;
+      top: 1.5rem;
+      left: 2rem;
+      font-size: 4rem;
+      cursor: pointer;
+      color: #444;
+      display: none;
+  }
+  
+  .header .navbar #close-navbar:hover{
+      transform: rotate(90deg);
+  }
+  
+  .header .btn{
+      margin-top: 0;
+  }
+  #menu-btn{
+    color: #333;
+    border: .1rem solid #333;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    display: none;
+}
